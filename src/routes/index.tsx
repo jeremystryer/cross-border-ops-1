@@ -48,8 +48,8 @@ function Hero() {
             <p className="md:col-span-7 text-lg leading-relaxed text-navy-foreground/75 md:text-xl">
               Advisory to US executives operating teams and professional services
               organizations in Mexico. The focus is the operating system behind
-              the team — ownership, communication, decision-making, and execution —
-              not recruiting, outsourcing, or staffing.
+              the team: ownership, communication, decision-making, and execution.
+              Not recruiting, outsourcing, or staffing.
             </p>
             <div className="md:col-span-5 md:pl-10 md:border-l md:border-navy-foreground/15">
               <p className="text-xs uppercase tracking-[0.2em] text-navy-foreground/50">
@@ -194,7 +194,7 @@ function Framework() {
         <SectionHeading
           eyebrow="The Framework"
           title="The US–Mexico Operations Diagnostic."
-          description="A structured assessment across five areas that determine whether a cross-border team scales — or stalls. Used as the starting point for every engagement."
+          description="A structured assessment across five areas that determine whether a cross-border team scales, or stalls. Used as the starting point for every engagement."
         />
 
         <div className="mt-16 border-t border-border">
@@ -248,7 +248,7 @@ function About() {
             </p>
             <p>
               His focus is helping US companies understand and improve the
-              systems required to successfully scale operations in Mexico — the
+              systems required to successfully scale operations in Mexico: the
               ownership, communication, decision-making, and process work that
               determines whether a team executes or drifts.
             </p>
@@ -270,7 +270,7 @@ function Insights() {
         <SectionHeading
           eyebrow="Writing"
           title="Notes on US–Mexico operations."
-          description="Essays on the operating systems behind cross-border teams — how ownership, communication, and decision-making determine whether a team executes."
+          description="Essays on the operating systems behind cross-border teams: how ownership, communication, and decision-making determine whether a team executes."
         />
         <div className="mt-12 flex flex-col gap-4 sm:flex-row">
           <a
