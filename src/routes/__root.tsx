@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Jeremy Stryer — Building US-Mexico Organizations" },
+      { title: "Jeremy Stryer | Building US-Mexico Organizations" },
       {
         name: "description",
         content:
-          "Jeremy Stryer advises US executives on the operating systems behind cross-border teams — ownership, communication, decision-making, and execution in Mexico.",
+          "Jeremy Stryer advises US executives on the operating systems behind cross-border teams: ownership, communication, decision-making, and execution in Mexico.",
       },
       { name: "author", content: "Jeremy Stryer" },
-      { property: "og:title", content: "Jeremy Stryer — Building US-Mexico Organizations" },
+      { property: "og:title", content: "Jeremy Stryer | Building US-Mexico Organizations" },
       {
         property: "og:description",
         content: "Insights and advisory on the operating systems behind US-Mexico teams.",
