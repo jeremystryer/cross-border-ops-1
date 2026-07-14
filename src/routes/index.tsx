@@ -239,7 +239,12 @@ function About() {
         <SectionHeading eyebrow="About" title="Jeremy Stryer." />
         <div className="mt-12 grid gap-10 md:grid-cols-12">
           <div className="md:col-span-4">
-            <p className="text-sm text-muted-foreground">
+            <img
+              src={jeremyPhoto.url}
+              alt="Jeremy Stryer"
+              className="w-40 h-52 object-cover grayscale md:w-48 md:h-60"
+            />
+            <p className="mt-6 text-sm text-muted-foreground">
               Founder, Stryer Operations
             </p>
           </div>
