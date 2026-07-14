@@ -187,11 +187,11 @@ function Problem() {
 
 function Framework() {
   const areas = [
-    { n: "01", title: "Ownership", q: "Are people clear on who owns outcomes?" },
-    { n: "02", title: "Communication", q: "Are expectations explicit or dependent on interpretation?" },
-    { n: "03", title: "Decision-Making", q: "Can teams make decisions without constant escalation?" },
-    { n: "04", title: "Operating Systems", q: "Are processes repeatable and scalable?" },
-    { n: "05", title: "Cross-Border Alignment", q: "Are US and Mexico teams working from shared assumptions?" },
+    { n: "01", title: "Operating Model", q: "Are roles, responsibilities, and decision rights clear?" },
+    { n: "02", title: "Communication System", q: "Do teams have mechanisms to align expectations, priorities, and feedback?" },
+    { n: "03", title: "Decision Architecture", q: "Can the organization move quickly without unnecessary escalation?" },
+    { n: "04", title: "Scalable Processes", q: "Are workflows documented, repeatable, and independent of individuals?" },
+    { n: "05", title: "Cross-Border Alignment", q: "Are both sides operating from shared expectations, assumptions, and goals?" },
   ];
   return (
     <section id="framework" className="border-b border-border">
@@ -199,7 +199,7 @@ function Framework() {
         <SectionHeading
           eyebrow="The Framework"
           title="The US–Mexico Operations Diagnostic."
-          description="A structured assessment across five areas that determine whether a cross-border team scales, or stalls. Used as the starting point for every engagement."
+          description="A structured assessment across five operating capabilities required to scale a cross-border team."
         />
 
         <div className="mt-16 border-t border-border">
