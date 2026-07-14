@@ -150,6 +150,10 @@ function Problem() {
       k: "Assumptions",
       v: "US leadership and Mexico teams operate from different mental models of how the work should run.",
     },
+    {
+      k: "Visibility",
+      v: "HQ lacks the reporting, context, and operating rhythms needed to know whether Mexico execution is on track.",
+    },
   ];
   return (
     <section id="problem" className="border-b border-border">
@@ -175,7 +179,6 @@ function Problem() {
               </p>
             </div>
           ))}
-          <div className="hidden bg-background p-8 md:block md:p-10" />
         </div>
       </div>
     </section>
@@ -279,20 +282,12 @@ function Insights() {
           title="Notes on US–Mexico operations."
           description="Essays on the operating systems behind cross-border teams: how ownership, communication, and decision-making determine whether a team executes."
         />
-        <div className="mt-12 flex flex-col gap-4 sm:flex-row">
+        <div className="mt-12">
           <a
-            href="https://substack.com"
+            href="https://www.linkedin.com/in/jeremystryer/"
             target="_blank"
             rel="noreferrer"
             className="text-sm uppercase tracking-[0.18em] text-foreground border-b border-foreground pb-1 hover:text-accent hover:border-accent transition-colors"
-          >
-            Read on Substack →
-          </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noreferrer"
-            className="text-sm uppercase tracking-[0.18em] text-muted-foreground border-b border-border pb-1 hover:text-foreground hover:border-foreground transition-colors sm:ml-8"
           >
             Follow on LinkedIn →
           </a>
