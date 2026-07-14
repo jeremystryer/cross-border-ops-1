@@ -131,28 +131,28 @@ function SectionHeading({
 function Problem() {
   const points = [
     {
-      k: "Ownership",
-      v: "It is unclear who owns which outcomes across the border.",
+      k: "Ownership gaps",
+      v: "People are unclear who owns outcomes across the border.",
     },
     {
-      k: "Decision-Making",
-      v: "Small decisions escalate. Larger ones stall waiting for US leadership.",
+      k: "Decision bottlenecks",
+      v: "Small decisions escalate. Larger ones stall waiting for HQ.",
     },
     {
-      k: "Communication",
-      v: "Expectations are implied rather than made explicit, leaving room for interpretation.",
+      k: "Communication breakdowns",
+      v: "Expectations remain implicit, leaving room for interpretation.",
     },
     {
-      k: "Processes",
-      v: "Critical workflows live in people's heads instead of documented systems.",
+      k: "Process dependency",
+      v: "Critical workflows live in people's heads instead of systems.",
     },
     {
-      k: "Assumptions",
-      v: "US leadership and Mexico teams operate from different mental models of how the work should run.",
+      k: "Cultural operating gaps",
+      v: "US and Mexico teams have different assumptions about how work gets done.",
     },
     {
-      k: "Visibility",
-      v: "HQ lacks the reporting, context, and operating rhythms needed to know whether Mexico execution is on track.",
+      k: "Visibility gaps",
+      v: "Leadership lacks the information needed to manage proactively.",
     },
   ];
   return (
