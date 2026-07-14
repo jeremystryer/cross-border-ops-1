@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-import jeremyPhoto from "../assets/jeremy-stryer.jpg.asset.json";
+import jeremyPhoto from "../assets/linkedin_profile.jpg";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -242,7 +242,7 @@ function About() {
         <div className="mt-12 grid gap-10 md:grid-cols-12">
           <div className="md:col-span-4">
             <img
-              src={jeremyPhoto.url}
+              src={jeremyPhoto}
               alt="Jeremy Stryer"
               className="w-40 h-52 object-cover grayscale md:w-48 md:h-60"
             />
