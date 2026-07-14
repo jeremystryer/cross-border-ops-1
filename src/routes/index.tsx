@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState, type FormEvent } from "react";
 
 import jeremyPhoto from "../assets/jeremy-stryer.jpg.asset.json";
 
@@ -298,11 +297,6 @@ function Insights() {
 }
 
 function Contact() {
-  const [submitted, setSubmitted] = useState(false);
-  const onSubmit = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
   return (
     <section id="contact" className="bg-navy text-navy-foreground">
       <div className="mx-auto max-w-6xl px-6 py-24 md:px-10 md:py-32">
@@ -321,32 +315,23 @@ function Contact() {
               personal and typically come within two business days.
             </p>
 
-            {submitted ? (
-              <div className="mt-12 border-l border-navy-foreground/30 pl-6">
-                <p className="font-serif text-2xl">Thank you.</p>
-                <p className="mt-2 text-navy-foreground/70">
-                  Your note has been received. Jeremy will follow up directly.
-                </p>
+            <form className="mt-14 grid gap-10 md:grid-cols-2">
+              <Field label="Name" name="name" required />
+              <Field label="Company" name="company" required />
+              <Field label="Role" name="role" required />
+              <Field label="Email" name="email" type="email" required />
+              <div className="md:col-span-2">
+                <Field label="Challenge or situation" name="situation" textarea required />
               </div>
-            ) : (
-              <form onSubmit={onSubmit} className="mt-14 grid gap-10 md:grid-cols-2">
-                <Field label="Name" name="name" required />
-                <Field label="Company" name="company" required />
-                <Field label="Role" name="role" required />
-                <Field label="Email" name="email" type="email" required />
-                <div className="md:col-span-2">
-                  <Field label="Challenge or situation" name="situation" textarea required />
-                </div>
-                <div className="md:col-span-2 pt-2">
-                  <button
-                    type="submit"
-                    className="text-sm uppercase tracking-[0.18em] text-navy-foreground border-b border-navy-foreground pb-1 hover:opacity-70 transition-opacity"
-                  >
-                    Send Note →
-                  </button>
-                </div>
-              </form>
-            )}
+              <div className="md:col-span-2 pt-2">
+                <a
+                  href="mailto:me@jeremystryer.com"
+                  className="text-sm uppercase tracking-[0.18em] text-navy-foreground border-b border-navy-foreground pb-1 hover:opacity-70 transition-opacity"
+                >
+                  Send Note →
+                </a>
+              </div>
+            </form>
           </div>
         </div>
       </div>
