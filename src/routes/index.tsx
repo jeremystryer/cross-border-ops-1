@@ -41,16 +41,14 @@ function Hero() {
 
         <div className="pt-24 pb-32 md:pt-40 md:pb-56">
           <h1 className="mt-10 font-serif text-5xl leading-[1.02] tracking-tight md:text-7xl lg:text-[5.5rem]">
-            Building US–Mexico
+            You built your Mexico team.
             <br />
-            <span className="text-navy-foreground/70">organizations that execute.</span>
+            <span className="text-navy-foreground/70">Now build the system that makes it work.</span>
           </h1>
           <div className="mt-16 grid gap-10 md:grid-cols-12">
             <p className="md:col-span-7 text-lg leading-relaxed text-navy-foreground/75 md:text-xl">
-              Advisory to US executives operating teams and professional services
-              organizations in Mexico. The focus is the operating system behind
-              the team: ownership, communication, decision-making, and execution.
-              Not recruiting, outsourcing, or staffing.
+              I help US executives turn Mexico operations into predictable, scalable teams by fixing 
+              the ownership, decision-making, communication, and processes that determine execution.
             </p>
             <div className="md:col-span-5 md:pl-10 md:border-l md:border-navy-foreground/15">
               <p className="text-xs uppercase tracking-[0.2em] text-navy-foreground/50">
@@ -88,7 +86,7 @@ function Thesis() {
             <p className="mt-10 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
               The result is quiet friction. Missed handoffs, escalating
               decisions, duplicated work, and leaders who cannot explain why a
-              capable team is not executing. This is the work.
+              capable team is not executing.
             </p>
           </div>
         </div>
@@ -160,7 +158,7 @@ function Problem() {
         <SectionHeading
           eyebrow="The Problem"
           title="Where cross-border teams quietly break."
-          description="These breakdowns rarely announce themselves. They surface as missed deadlines, quiet attrition, duplicated work, and leadership frustration that has no obvious cause."
+          description="These breakdowns never announce themselves. They surface as missed deadlines, staff turnover, and leadership frustration that has no obvious cause."
         />
         <div className="mt-16 grid gap-px bg-border md:grid-cols-2">
           {points.map((p) => (
